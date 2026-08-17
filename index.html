@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SpiralSense makes unconscious scrolling visible." />
+  <title>SpiralSense — Make the invisible pattern visible</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a class="brand" href="#top"><span class="mark">|||</span> SpiralSense</a>
+    <div><a href="#how">How it works</a><a href="#demo">Demo</a><a class="nav-button" href="#privacy">Privacy first</a></div>
+  </nav>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">● PRIVATE, EXPLAINABLE, LOCAL</p>
+      <h1>Make the invisible<br><em>pattern</em> visible.</h1>
+      <p class="intro">SpiralSense notices when deliberate browsing starts to feel automatic—using only your scrolling rhythm, entirely on your device.</p>
+      <a class="button" href="#demo">Try the live demo <span>→</span></a>
+      <p class="trust">⌑ No content reading &nbsp;·&nbsp; No cloud &nbsp;·&nbsp; No AI</p>
+      <div class="browser-card"><header><span class="dot"></span> LIVE BEHAVIOR SIGNAL <b>LOCAL ONLY</b></header><div class="chart"><p>SCROLL VELOCITY</p><svg viewBox="0 0 700 180" preserveAspectRatio="none"><path d="M0 150 C50 142 68 158 110 140 S160 142 200 125 S245 130 285 96 S325 104 365 70 S405 86 450 50 S495 56 535 32 S600 33 700 14" /></svg><span class="threshold">SPIRAL THRESHOLD</span><div class="chart-stats"><span><b>1,240</b> px/s</span><span><b>0.4</b> s pause</span><span class="lime"><b>Elevated</b> awareness</span></div></div></div>
+    </section>
+    <section id="how">
+      <p class="eyebrow">THE DIFFERENCE</p><div class="two"><h2>Time isn’t behavior.</h2><p>Twenty minutes lost in a feed and twenty minutes reading a great article look identical to screen-time tools. SpiralSense pays attention to the rhythm, not the clock.</p></div>
+      <div class="features"><article><small>01</small><h3>Observe</h3><p>Measures scrolling rhythm—not what you read, watch, or type.</p></article><article><small>02</small><h3>Understand</h3><p>A deterministic rule checks velocity and pauses in a rolling window.</p></article><article><small>03</small><h3>Return</h3><p>A gentle moment of awareness gives you the choice back.</p></article></div>
+    </section>
+    <section id="demo" class="dark">
+      <p class="eyebrow">INTERACTIVE DEMO</p><div class="two"><h2>Feel the signal.</h2><p>Choose a browsing rhythm. The detector shows exactly which values made its decision.</p></div>
+      <div class="demo-card"><div class="tabs"><button class="active" data-mode="reading">Reading</button><button data-mode="browsing">Rapid browsing</button></div><div class="results"><div class="metric"><small>AVERAGE VELOCITY</small><strong id="velocity">—</strong> px/s</div><div class="metric"><small>LONGEST PAUSE</small><strong id="pause">—</strong> seconds</div><div class="metric"><small>STATUS</small><strong id="status">—</strong></div></div><div class="rule"><small>RULE CHECK</small><code id="rule">Loading…</code></div></div>
+    </section>
+    <section id="privacy" class="privacy"><p class="eyebrow">PRIVACY, WITHOUT AN ASTERISK</p><div class="two"><h2>Your attention<br>is <em>yours.</em></h2><p>SpiralSense does not inspect page content, record keystrokes, identify websites, or send browsing data anywhere. Its entire signal is a few numbers: speed, pauses, and timestamps.<br><br><b>✓ Analysis stays in the browser<br>✓ Every detection is explainable<br>✓ You can clear local data anytime</b></p></div></section>
+  </main>
+  <footer><span class="brand"><span class="mark">|||</span> SpiralSense</span><span>Make the invisible pattern visible.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
